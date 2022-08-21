@@ -6,24 +6,29 @@
      <link rel="icon"
      type="image/png"
      href="imagen/logito.png">
+     <link rel="stylesheet" href="css/estilos.css">
    </head>
  <body>
-    <header>
+    <header class="header">
         <div>
-        <nav>
-           <figure>
-            <img src="imagen/bar.png" alt="Logo de http://ricardito.com">
-           </figure>
+
+            <figure class="logo">
+                <img src="imagen/bar.png" alt="Logo de http://ricardito.com">
+               </figure>
+
+        <nav class="menu">       
+           
+           
             <ol>
                 <li>
-                    <a href="#">portafolio</a>
+                    <a class="link" href="#portak">portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experiencia</a>
+                    <a class="link" href="#expe">Experiencia</a>
                 </li>
                 </li>
                 <li>
-                    <a href="#">Trabajemos juntos</a>
+                    <a class="link" href="#trab">Trabajemos juntos</a>
                 </li>
 
 
@@ -31,7 +36,7 @@
         </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>
             Hola!!! soy <strong>Ricardo Nuñez</strong>  
            <br> voy a ser desarrollador 
@@ -42,27 +47,33 @@
 
     </section>
    
-    <section>
-        <h2>Portafolios (Proyectos Destacados)</h2>
-        <article>
-            <h3>Plazi Video</h3>
-                <h6>ractive / reack</h6>
-                <p><small><strong>Fecha:</strong> 17/08/2022</small> </p>
-                <p><small><strong>Puedes verlo en:</strong> www.algo.com</small> </p>
-                <img src="imagen/sillon.jpg" width="500" alt="">
+    <section class="portak">
+        <h2 >Portafolios (Proyectos Destacados)</h2>
+        <article class="project">
+            <h3 class="project-title">Plazi Video</h3>
+                <h6 class="project-course">ractive / reack</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 17/08/2022</small> </p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.algo.com</small> </p>
+                <p class="project-description"> Este es uno de los videos mas comicos de los simpsons </p>
+
+                <figure class="project-imageContainer"> 
+                    <img class="project-image" src="imagen/sillon.jpg" width="500" alt="">
+                
+                </figure>
+               
             
         </article>
     </section>
-    <section>
+    <section id="expe">
         <h2>Mas sobre mi experiencia</h2>
-        <article>
-           <figure>
-            <img src="imagen/familia.jpg" width="500" alt="">
+        <article class="evet">
+           <figure class="eveny-imageContainer">
+            <img class="event-image" src="imagen/familia.jpg" width="500" alt="">
         
             </figure>
-            <h3>plazy mexico 2022</h3>
-            <p>algo que poner par MAS PLACER </p>
-            <a>ver platica(enlace)</a>
+            <h3 class="event-title">plazy mexico 2022</h3>
+            <p class="event-description">algo que poner para MAS PLACER </p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=-u62ttx-AJ4"  target="_blank">ver el coco</a>
 
 
         </article>
@@ -70,16 +81,15 @@
 
 
     </section>
-    <section>
+    <section id="trab" class="contact">
+           
+        <form class="form-email" action="#SUBCRICION/">
+            <h3>¿Creamos algo juntos?</h3>
 
-        <h3>¿Creamos algo juntos?</h3>
-            
-        
-        <form action="#SUBCRICION/">
+
             <input type="text"
             placeholder="ingresa tu email">
             <button>enviar</button>
-
 
 
         </form>
@@ -87,7 +97,7 @@
 
 
     </section>
-    <footer>seccion footer </footer>
+    <footer class="footer">seccion footer </footer>
  </body>
 
 </html>

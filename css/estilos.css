@@ -1,0 +1,24 @@
+
+/*reglas 
+selectores
+declaraciones
+propiedades
+valores*/
+
+
+header {
+    background: pink;
+    color: red;
+    
+
+}
+
+/*selector de etiqueta ej header - section -artucle-nav
+selector decendente 
+por clase y id 
+selector de clase se hace con .
+.link
+selector de id es #
+#portafolio
+*/
+
