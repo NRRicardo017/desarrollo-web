@@ -96,3 +96,25 @@ h1 strong{
     text-decoration: none;
 
 }
+
+/*como poner bordes a la pagina */
+
+.project {
+
+/*bordes: tamaño tipo estilo(color)-formato
+ superior -top
+ inferior-botton 
+  izquierda-left
+   derecha-right*/
+/*   
+border-top:10px solid red;*/
+/*otra forma de poner
+border-color: blue;
+border-style: solid ;
+border-width: 15px ;
+*/
+
+border: 1px solid gray;
+border-radius: 10px;
+
+}
