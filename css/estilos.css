@@ -5,7 +5,7 @@ declaraciones
 propiedades
 valores*/
 
-
+/*
 header {
     background: pink;
     color: red;
@@ -22,3 +22,99 @@ selector de id es #
 #portafolio
 */
 
+body {
+
+font-family: 'Source Sans 3', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Vollkorn',times;
+    /*estilo de las fuentes*/
+    font-weight: 400;
+    /*estilo de fuente*/
+   /* font-style: italic;*/
+
+}
+
+h1 {
+    /*tamaño de fuente*/
+    font-size: 40px ;
+    /*alto de linea*/
+        line-height: 1.5em ;
+    
+   /*separacion de las letras*/
+   letter-spacing: -2px;
+/*
+   /*transformar las fuentes
+
+   text-transform: uppercase;
+
+   /*para decorar el texto
+   text-decoration: underline;
+*/
+     /*para poner color a las letras*/
+     color: white;
+}
+
+h1 strong{
+ color: red;
+
+}
+
+.hero {
+
+    height: 300px;
+    /*un color de fondo*/
+    background-color: rgb(5, 5, 31);
+    /*una imagen de fondo*/
+    background-image: url('../imagen/logosim.jpg') ;
+    /*darle un tamaño en un background*/
+    background-size: 500px 300px;
+    /*para que se repita la imagen de fondo*/
+    background-repeat: no-repeat;
+    /*ubicar la posicion de la imagen (x= horizontal)*/
+    background-position-x: right;
+}
+
+.header {
+
+    /*color de fondo*/
+    background-color: rgb(4, 4, 80);
+    color: white;
+
+}
+
+.header a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+/*como poner bordes a la pagina */
+
+.project {
+
+/*bordes: tamaño tipo estilo(color)-formato
+ superior -top
+ inferior-botton 
+  izquierda-left
+   derecha-right*/
+/*   
+border-top:10px solid red;*/
+/*otra forma de poner
+border-color: blue;
+border-style: solid ;
+border-width: 15px ;
+*/
+
+border: 1px solid gray;
+border-radius: 10px;
+
+}
