@@ -45,10 +45,8 @@ h6 {
 h1 {
     /*tamaño de fuente*/
     font-size: 40px ;
-
     /*alto de linea*/
-    line-height: 1.5em ;
-
+        line-height: 1.5em ;
     
    /*separacion de las letras*/
    letter-spacing: -2px;
@@ -60,12 +58,41 @@ h1 {
    /*para decorar el texto
    text-decoration: underline;
 */
-     
-    
+     /*para poner color a las letras*/
+     color: white;
+}
+
+h1 strong{
+ color: red;
 
 }
 
 .hero {
 
     height: 300px;
+    /*un color de fondo*/
+    background-color: rgb(5, 5, 31);
+    /*una imagen de fondo*/
+    background-image: url('../imagen/logosim.jpg') ;
+    /*darle un tamaño en un background*/
+    background-size: 500px 300px;
+    /*para que se repita la imagen de fondo*/
+    background-repeat: no-repeat;
+    /*ubicar la posicion de la imagen (x= horizontal)*/
+    background-position-x: right;
+}
+
+.header {
+
+    /*color de fondo*/
+    background-color: rgb(4, 4, 80);
+    color: white;
+
+}
+
+.header a {
+
+    color: white;
+    text-decoration: none;
+
 }
