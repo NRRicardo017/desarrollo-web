@@ -52,15 +52,20 @@ h1 {
     
    /*separacion de las letras*/
    letter-spacing: -2px;
-
-   /*transformar las fuentes*/
+/*
+   /*transformar las fuentes
 
    text-transform: uppercase;
 
-   /*para decorar el texto*/
+   /*para decorar el texto
    text-decoration: underline;
-
+*/
      
     
 
+}
+
+.hero {
+
+    height: 300px;
 }
